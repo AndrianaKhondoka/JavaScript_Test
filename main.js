@@ -68,8 +68,8 @@ function listForSort() {
 
     }
     // повернення масиву для подальшого сортування
-    return arrForSort;
-};
+    return arrForSort
+}
 
 //Функція створює відсортований список
 function createPairSort(arraySort) {
@@ -85,10 +85,10 @@ function createPairSort(arraySort) {
            pairSort.classList.toggle('selected');
         }
         // додавання відсортованих елементів до списку
-        ul.appendChild(pairSort)
+        ul.appendChild(pairSort);
         list.appendChild(ul);
     }
-};
+}
 
 // Отримання button "Sort by Name"
 const buttonSortName = document.getElementsByTagName('button')[1];
