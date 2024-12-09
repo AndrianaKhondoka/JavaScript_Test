@@ -42,7 +42,7 @@ buttonAdd.addEventListener('click', function (e) {
     }
     // при недотриманні вимог при введені пари <name> = <value> спливаюче вікно з попередженням
     else {
-        alert('Incorrect way of input! Correct way is "name=value".Use only letters and numbers');
+        alert('Incorrect way of input! Correct way is "name=value".Use only letters and numbers!');
     }
 });
 
